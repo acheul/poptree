@@ -1,4 +1,4 @@
-# tree
+# poptree
 Make family trees with Graphviz (on python)
   
 ### To execute:
