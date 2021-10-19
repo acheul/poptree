@@ -9,7 +9,7 @@ before execute this fucntion.
 If you do not assign a different dataframe, the function will use a default dataframe.
 The dataframe assigned must follow a proper format to be organized. 
 '''
-
+global A, dft
 A = 2
 
 import pandas as pd
