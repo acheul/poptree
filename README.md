@@ -2,7 +2,7 @@
 Make family trees with Graphviz (on python)
   
 ### To execute:
->> pip install git+https://github.com/acheul/poptree.git
+>> pip install git+https://github.com/acheul/poptree.git<br>
 >> from pop_tree import *
   
 ### Notes
