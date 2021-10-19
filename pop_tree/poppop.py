@@ -3,6 +3,3 @@ def rrrrrr():
 
 def aaa():
     return 10
-
-global A
-A = 2
