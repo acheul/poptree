@@ -10,7 +10,7 @@ If you do not assign a different dataframe, the function will use a default data
 The dataframe assigned must follow a proper format to be organized. 
 '''
 
-def Tree(df=df, format='svg', graph_name='OnceUponATimeInChosun',
+def Tree(df=dft, format='svg', graph_name='OnceUponATimeInChosun',
          graph_attr={'pad':'1.4, 1', 'splines':'spline', 'nodesep':'.2', 'ranksep':'1.2', 'ratio':'auto', 'fontname':"NanumSquareRound", 'fontsize':"14pt"},
          node_attr={'fontname':"NanumSquareRound", 'fontsize':"14pt"}, edge_attr={'fontname':"NanumSquareRound", 'fontsize':"14pt"},
          Shape={1:'box', 2:'ellipse', 3:'egg'}, Bold={0:'solid', 1:'bold'},
