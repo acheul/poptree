@@ -11,7 +11,7 @@ The dataframe assigned must follow a proper format to be organized.
 '''
 
 import pandas as pd
-global dft A
+global dft, A
 dft = pd.read_csv("testtable.csv")
 
 A = 2
