@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'pop_tree',
-    version = '0.0.6',
+    version = '0.0.7',
     description = 'chosun Poppop Pop .. Tree',
     url = "https://github.com/acheul/tree.git",
     author = 'acheul',
