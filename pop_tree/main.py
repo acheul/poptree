@@ -9,11 +9,10 @@ before execute this fucntion.
 If you do not assign a different dataframe, the function will use a default dataframe.
 The dataframe assigned must follow a proper format to be organized. 
 '''
-global A, dft
-A = 2
 
-import pandas as pd
-dft = pd.read_csv("testtable.csv")
+def init():
+  global dft
+  dft = pd.read_csv("testtable.csv")
 
 def Tree(df=dft, format='svg', graph_name='OnceUponATimeInChosun',
          graph_attr={'pad':'1.4, 1', 'splines':'spline', 'nodesep':'.2', 'ranksep':'1.2', 'ratio':'auto', 'fontname':"NanumSquareRound", 'fontsize':"14pt"},
