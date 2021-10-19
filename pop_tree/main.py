@@ -13,8 +13,9 @@ The dataframe assigned must follow a proper format to be organized.
 def init():
   global dft
   dft = pd.read_csv("testtable.csv")
+  return dft
 
-def Tree(df=dft, format='svg', graph_name='OnceUponATimeInChosun',
+def Tree(df=init(), format='svg', graph_name='OnceUponATimeInChosun',
          graph_attr={'pad':'1.4, 1', 'splines':'spline', 'nodesep':'.2', 'ranksep':'1.2', 'ratio':'auto', 'fontname':"NanumSquareRound", 'fontsize':"14pt"},
          node_attr={'fontname':"NanumSquareRound", 'fontsize':"14pt"}, edge_attr={'fontname':"NanumSquareRound", 'fontsize':"14pt"},
          Shape={1:'box', 2:'ellipse', 3:'egg'}, Bold={0:'solid', 1:'bold'},
