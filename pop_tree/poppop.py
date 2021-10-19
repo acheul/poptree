@@ -6,7 +6,6 @@ If you do not assign a special dataframe, the function will use a default datafr
 The dataframe assigned must be organized in a proper format. 
 '''
 
-
 import pandas as pd
 import numpy as np
 from collections import Counter
