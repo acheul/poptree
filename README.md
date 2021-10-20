@@ -27,11 +27,11 @@ Make family trees with Graphviz (on python)
 > * *rl02_id*, *rl02_lab* - They are same as *rl01_id*, *rl01_lab*  
   
 * You can reassign keyword arguments:
-** *format* of the Graph, *graph_name*, *graph_attr*, *node_attr*, *edge_attr*
-** You can transform the *Shape* dictionary, which links sex(1, 2, 3) and the shape of node. Currently it's "Shape={1:'box', 2:'ellipse', 3:'egg'}"
-** Also you can transform *Bold* dictionary, which links bold(1, 0) and the style of node. On default it is "Bold={0:'solid', 1:'bold'}"
-** If you designate "use_rllab=False", the *rl01* and *rl02* relationship will not be marked on the graph. "True" is the default.
-** If you designate "use_bold=False", the *bold* columns will not work on the graph. "True" is the default.
+> * *format* of the Graph, *graph_name*, *graph_attr*, *node_attr*, *edge_attr*
+> * You can transform the *Shape* dictionary, which links sex(1, 2, 3) and the shape of node. Currently it's "Shape={1:'box', 2:'ellipse', 3:'egg'}"
+> * Also you can transform *Bold* dictionary, which links bold(1, 0) and the style of node. On default it is "Bold={0:'solid', 1:'bold'}"
+> * If you designate "use_rllab=False", the *rl01* and *rl02* relationship will not be marked on the graph. "True" is the default.
+> * If you designate "use_bold=False", the *bold* columns will not work on the graph. "True" is the default.
   
 ### Notes
 * I higly recommend to work on Google Colab, which have graphviz installed from the first. Otherwise, it would be quite picky to install and use graphviz.  
