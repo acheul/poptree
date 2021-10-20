@@ -35,11 +35,11 @@ Make family trees with Graphviz (on python)
 
 * The *Tree* function returns a Graph object. If you want to render and save it, you have to execute that process outside of the function.
 * For example,
-'''
+```
 dot = Tree(df=dft, use_rllab=True) # Tree function works.
 dot.render('tree', view=True) # render and save it as 'tree'. (defualt format is .svg)
 display(dot) # To display it right away.
-'''
+```
   
 ### Notes
 * I higly recommend to work on Google Colab, which have graphviz installed from the first. Otherwise, it would be quite picky to install and use graphviz.  
