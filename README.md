@@ -44,7 +44,7 @@ display(dot) # To display it right away.
   
 ### Notes
 * I higly recommend to work on Google Colab, which have graphviz installed from the first. Otherwise, it would be quite picky to install and use graphviz.  
-* Designing this pack was initially inspired from a work of Ahsen Parwez https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
+* Designing this pack was initially inspired from the work of Ahsen Parwez https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
 * The main purpose for this pack is to restore and visualize family geneologies from premodern historic data. This is why the family tree here are mainly structured on paternal linkage, that is, on wife-husband and father-child connections.
 * In the latest version, graphviz distinguishes *cluster* and *subgraph*. I got this point thanks to a StackFlow Q&A, https://stackoverflow.com/questions/55561635/problem-with-rank-same-in-subgraphs-and-clusters
   
