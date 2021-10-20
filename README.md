@@ -7,11 +7,13 @@ Make family trees with Graphviz (on python)
 
 ### details
 * What you need is a tidily organized pandas dataframe, which has information on linkages between wife-husband and child-father.
-* The dataframe should have following columns.
-| id	| name	| birth_year	| sex	| det	| bold	| xlabel	| fa	| hs	| rl01_id	| rl01_lab| rl02_id	| rl02_lab |
+* The dataframe should have following columns.  
+  
+|id|name|birth_year|sex|det|bold|xlabel|fa|hs|rl01_id|rl01_lab|rl02_id|rl02_lab|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
-|1|김조부\n(金造釜)	| 1720 |	1 |	"김조부는 신등면 사람으로, 조선시대 사람이다."	| 1 |	1732\n1735\n1738	| NaN	| NaN	| NaN	| NaN	| NaN	| NaN |
-** *id* - Each person should have its own unique id.
+|1|김조부\n(金造釜)|1720|1|"김조부는 신등면 사람으로, 조선시대 사람이다."|1|1732\n1735\n1738|NaN|NaN|NaN|NaN|NaN|NaN|  
+  
+ ** *id* - Each person should have its own unique id.
 ** *name* - This value will be the main label of the person.
 ** *birth_year* - This value will be a part of the main label. If you don't want to reveal it, just left it Nan.
 ** *sex* - Assign 1 for male, 2 for female and 3 for uncertain.
@@ -36,11 +38,3 @@ Make family trees with Graphviz (on python)
 * Designing this pack was initially inspired from a work of Ahsen Parwez https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
 * The main purpose for this pack is to restore and visualize family geneologies from premodern historic data. This is why the family tree here are mainly structured on paternal linkage, that is, on wife-husband and father-child connections.
 * In the latest version, graphviz distinguishes *cluster* and *subgraph*. I got this point thanks to a StackFlow Q&A, https://stackoverflow.com/questions/55561635/problem-with-rank-same-in-subgraphs-and-clusters
-
-
-
-|제목|내용|설명|
-|:---|:---:|---:|
-||중앙에서확장||
-|||오른쪽에서 확장|
-|왼쪽에서확장||
