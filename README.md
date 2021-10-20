@@ -13,18 +13,18 @@ Make family trees with Graphviz (on python)
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
 |1|김조부\n(金造釜)|1720|1|"김조부는 신등면 사람으로, 조선시대 사람이다."|1|1732\n1735\n1738|NaN|NaN|NaN|NaN|NaN|NaN|  
   
-** *id* - Each person should have its own unique id.
-** *name* - This value will be the main label of the person.
-** *birth_year* - This value will be a part of the main label. If you don't want to reveal it, just left it Nan.
-** *sex* - Assign 1 for male, 2 for female and 3 for uncertain.
-** *det* - Describe some details on the person. This value will be indicated with a *mouse hover*. If you don't assign this value, the *name* value will be used as a mouse hover label.
-** *bold* - If you wand to make *style: bold* for the person's node, assing value 1.
-** *xlabel* - This value will be the sub-label, marked outside of a node.
-** *fa* - Assign *id* of the father of the person.
-** *hs* - Assign *id* of the husband of the person.
-** *rl01_id* - If you wand to indicate different relationship then *fa* or *hs*, assign the *id* of that relationship. This value must be paired with *rl01_lab*
-** *rl01_lab* - Assign the name of the relationship in *rl01_id*
-** *rl02_id*, *rl02_lab* - They are same as *rl01_id*, *rl01_lab*  
+> * *id* - Each person should have its own unique id.
+> * *name* - This value will be the main label of the person.
+> * *birth_year* - This value will be a part of the main label. If you don't want to reveal it, just left it Nan.
+> * *sex* - Assign 1 for male, 2 for female and 3 for uncertain.
+> * *det* - Describe some details on the person. This value will be indicated with a *mouse hover*. If you don't assign this value, the *name* value will be used as a mouse hover label.
+> * *bold* - If you wand to make *style: bold* for the person's node, assing value 1.
+> * *xlabel* - This value will be the sub-label, marked outside of a node.
+> * *fa* - Assign *id* of the father of the person.
+> * *hs* - Assign *id* of the husband of the person.
+> * *rl01_id* - If you wand to indicate different relationship then *fa* or *hs*, assign the *id* of that relationship. This value must be paired with *rl01_lab*
+> * *rl01_lab* - Assign the name of the relationship in *rl01_id*
+> * *rl02_id*, *rl02_lab* - They are same as *rl01_id*, *rl01_lab*  
   
 * You can reassign keyword arguments:
 ** *format* of the Graph, *graph_name*, *graph_attr*, *node_attr*, *edge_attr*
