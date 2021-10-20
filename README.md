@@ -13,7 +13,7 @@ Make family trees with Graphviz (on python)
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
 |1|김조부\n(金造釜)|1720|1|"김조부는 신등면 사람으로, 조선시대 사람이다."|1|1732\n1735\n1738|NaN|NaN|NaN|NaN|NaN|NaN|  
   
- ** *id* - Each person should have its own unique id.
+** *id* - Each person should have its own unique id.
 ** *name* - This value will be the main label of the person.
 ** *birth_year* - This value will be a part of the main label. If you don't want to reveal it, just left it Nan.
 ** *sex* - Assign 1 for male, 2 for female and 3 for uncertain.
