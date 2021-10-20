@@ -18,7 +18,7 @@ Make family trees with Graphviz (on python)
 > * *birth_year* - This value will be a part of the main label. If you don't want to reveal it, just left it Nan.
 > * *sex* - Assign 1 for male, 2 for female and 3 for uncertain.
 > * *det* - Describe some details on the person. This value will be indicated with a *mouse hover*. If you don't assign this value, the *name* value will be used as a mouse hover label.
-> * *bold* - If you wand to make *style: bold* for the person's node, assing value 1.
+> * *bold* - If you wand to make *style: bold* for the person's node, assign value 1.
 > * *xlabel* - This value will be the sub-label, marked outside of a node.
 > * *fa* - Assign *id* of the father of the person.
 > * *hs* - Assign *id* of the husband of the person.
@@ -32,6 +32,14 @@ Make family trees with Graphviz (on python)
 > * Also you can transform *Bold* dictionary, which links bold(1, 0) and the style of node. On default it is "Bold={0:'solid', 1:'bold'}"
 > * If you designate "use_rllab=False", the *rl01* and *rl02* relationship will not be marked on the graph. "True" is the default.
 > * If you designate "use_bold=False", the *bold* columns will not work on the graph. "True" is the default.
+
+* The *Tree* function returns a Graph object. If you want to render and save it, you have to execute that process outside of the function.
+* For example,
+'''
+dot = Tree(df=dft, use_rllab=True) # Tree function works.
+dot.render('tree', view=True) # render and save it as 'tree'. (defualt format is .svg)
+display(dot) # To display it right away.
+'''
   
 ### Notes
 * I higly recommend to work on Google Colab, which have graphviz installed from the first. Otherwise, it would be quite picky to install and use graphviz.  
