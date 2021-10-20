@@ -49,3 +49,4 @@ display(dot) # To display it right away.
 * In the latest version, graphviz distinguishes *cluster* and *subgraph*. I got this point thanks to a StackFlow Q&A, https://stackoverflow.com/questions/55561635/problem-with-rank-same-in-subgraphs-and-clusters
   
 ### Examples
+![treexample](./image/treexample.png)
