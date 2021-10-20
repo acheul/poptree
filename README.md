@@ -2,8 +2,10 @@
 Make family trees with Graphviz (on python)
   
 ### To execute:
->> pip install git+https://github.com/acheul/poptree.git<br>
->> from pop_tree import *
+```
+pip install git+https://github.com/acheul/poptree.git<br>
+from pop_tree import *
+```  
 
 ### details
 * What you need is a tidily organized pandas dataframe, which has information on linkages between wife-husband and child-father.
@@ -33,8 +35,7 @@ Make family trees with Graphviz (on python)
 > * If you designate "use_rllab=False", the *rl01* and *rl02* relationship will not be marked on the graph. "True" is the default.
 > * If you designate "use_bold=False", the *bold* columns will not work on the graph. "True" is the default.
 
-* The *Tree* function returns a Graph object. If you want to render and save it, you have to execute that process outside of the function.
-* For example,
+* The *Tree* function returns a Graph object. If you want to render and save it, you have to execute that process outside of the function. For example,
 ```
 dot = Tree(df=dft, use_rllab=True) # Tree function works.
 dot.render('tree', view=True) # render and save it as 'tree'. (defualt format is .svg)
@@ -46,3 +47,5 @@ display(dot) # To display it right away.
 * Designing this pack was initially inspired from a work of Ahsen Parwez https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
 * The main purpose for this pack is to restore and visualize family geneologies from premodern historic data. This is why the family tree here are mainly structured on paternal linkage, that is, on wife-husband and father-child connections.
 * In the latest version, graphviz distinguishes *cluster* and *subgraph*. I got this point thanks to a StackFlow Q&A, https://stackoverflow.com/questions/55561635/problem-with-rank-same-in-subgraphs-and-clusters
+  
+### Examples
