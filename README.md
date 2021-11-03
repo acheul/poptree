@@ -8,8 +8,8 @@ from pop_tree import *
 ```  
 
 ### details
-* What you need is a tidily organized pandas dataframe, which has information on linkages between wife-husband and child-father.
-* The dataframe should have following columns.  
+* You need a well-organized pandas dataframe with information on wife-husband and child-father relationships. 
+* The following columns should be included in the dataframe:
   
 |id|name|birth_year|sex|det|bold|xlabel|fa|hs|rl01_id|rl01_lab|rl02_id|rl02_lab|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
@@ -35,7 +35,7 @@ from pop_tree import *
 > * If you designate "use_rllab=False", the *rl01* and *rl02* relationship will not be marked on the graph. "True" is the default.
 > * If you designate "use_bold=False", the *bold* columns will not work on the graph. "True" is the default.
 
-* The *Tree* function returns a Graph object. If you want to render and save it, you have to execute that process outside of the function. For example,
+* The *Tree* function returns a Graph object. You have to render and save it outside of the function if you wish to do so. As an example,
 ```
 dot = Tree(df=dft, use_rllab=True) # Tree function works.
 dot.render('tree', view=True) # render and save it as 'tree'. (defualt format is .svg)
@@ -43,9 +43,9 @@ display(dot) # To display it right away.
 ```
   
 ### Notes
-* I higly recommend to work on Google Colab, which have graphviz installed from the first. Otherwise, it would be quite picky to install and use graphviz.  
+* I strongly recomment to work on Google Colab, which comes pre-installed with graphviz. Otherwise, installing graphviz (for python) on your own would be a ... pain.
 * Designing this pack was initially inspired from the work of Ahsen Parwez https://medium.com/@ahsenparwez/building-a-family-tree-with-python-and-graphviz-e4afb8367316
-* The main purpose for this pack is to restore and visualize family geneologies from premodern historic data. This is why the family tree here is mainly structured on paternal linkage, that is, on wife-husband and father-child connections.
+* The main goal of this pack is to rebuild and visualize premodern family geneologies using historical data set. As a result, the family tree presented is primarily based on paternal linkage, i.e., wife-husband and father-child relationships.
 * In the latest version, graphviz distinguishes *cluster* and *subgraph*. I got this point thanks to a StackFlow Q&A, https://stackoverflow.com/questions/55561635/problem-with-rank-same-in-subgraphs-and-clusters
   
 ### Examples
