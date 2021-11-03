@@ -1,5 +1,5 @@
 # poptree
-Make family trees with Graphviz (on python)
+Visualize family trees from historical data set with Graphviz (on python)
   
 ### To execute:
 ```
