@@ -1,7 +1,7 @@
 # poptree
 Visualize family trees from historical data set with Graphviz (on python)
   
-### To execute:
+### To install and import:
 ```
 pip install git+https://github.com/acheul/poptree.git
 from pop_tree import *
