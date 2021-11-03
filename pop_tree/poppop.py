@@ -53,7 +53,7 @@ def Tree(df=dft, format='svg', graph_name='OnceUponATimeInChosun',
         dot.node(str(id), label=main_lab, tooltip=det, shape=Shape[sex], xlabel=str(xlab), style=Bold[bold])
         # if with hs
         if hs != None:
-            sub1 = Graph(name=f"cluster{id}")
+            sub1 = Graph(name=f"cluster{hs}")
             sub1.attr(style='invis')
             sub2 = Graph()
             sub2.attr(rank="same")
